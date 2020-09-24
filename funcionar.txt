@@ -1,0 +1,10 @@
+-A partir do Laravel versão 6.0 houve algumas modificações nos comandos utilizados para geração das views e rotas do login.
+
+-Se você utilizar a versão 6.0 ou superior, no vídeo a seguir, o seguinte comando:
+
+php artisan make:auth
+
+-Deve ser substituido por esses 2 comandos:
+
+composer require laravel/ui
+php artisan ui:auth
